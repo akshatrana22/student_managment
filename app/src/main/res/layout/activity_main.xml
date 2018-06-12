@@ -7,7 +7,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#f7d8d8"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -77,14 +76,15 @@
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="College="
             android:paddingRight="4dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
-        <EditText
+        <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="13dp"
@@ -104,6 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Address="
+            android:layout_marginTop="17dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
         <EditText
@@ -112,6 +113,7 @@
             android:layout_marginLeft="9dp"
             android:id="@+id/fourth"
             android:hint="enter address"
+            android:layout_marginTop="10dp"
             />
 
     </LinearLayout>
